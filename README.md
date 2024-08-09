@@ -35,6 +35,24 @@ python mian.py
 
 > 可以自行打开文件更换接口和运行模式等  
 
+### 升级说明
+
+从旧版升级时需要查看
+
+<details>
+  <summary>点击展开</summary>
+
+由于新版本判断重复的逻辑变更  
+如果你之前有在使用[此版本](https://github.com/xiaotian2333/Auto-wallpaper-change/commit/79249a5ac6c2c33874844e158afc25597d723f9a)及更久之前的版本，那么升级时务必先查看下方的升级步骤  
+否则将可能产生一张重复的图片
+
+1. 下载`md5.py` [点此下载](https://github.com/xiaotian2333/Auto-wallpaper-change/blob/main/md5.py)  
+2. 下载完毕后将`md5.py`放置在图片目录内
+3. 运行`md5.py`，当输出`数据已成功写入JSON文件`时说明运行完毕  
+4. 现在可以删除`md5.py`了
+
+</details>
+
 ## 兼容性声明
 
 仅测试 `win10-python311` 环境可用  
