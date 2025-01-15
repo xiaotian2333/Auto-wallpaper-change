@@ -12,13 +12,13 @@
 输入以下命令安装依赖
 
 ``` cmd
-pip install pywin32 requests
+pip install pywin32 requests Pillow
 ```
 
 如果在中国大陆且网络环境不佳，可以尝试使用清华大学镜像站进行安装
 
 ``` cmd
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pywin32 requests
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pywin32 requests Pillow
 ```
 
 在运行脚本前需要打开文件更换图片文件的保存位置，默认位置为个人图片库目录  
