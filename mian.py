@@ -36,7 +36,7 @@ img_type_convert = False
 # 在线图片链接
 url = "https://t.alcy.cc/ysz/"
 # 保存的文件夹，注意必须由\\结尾
-img_path = sys_user_path+"\Pictures\\"
+img_path = sys_user_path+"\\Pictures\\"
 # 文件名格式，文件后缀会自动添加
 img_name = (
     str(t.tm_year)+"年"
